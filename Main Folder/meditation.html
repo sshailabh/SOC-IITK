@@ -1,0 +1,53 @@
+<html>
+<head>
+  <title> Meditation </title>
+<style>
+
+
+
+  body{
+    background-image:url("meditation.jpg");
+      height: 100%;
+      background-position:center;
+      background-repeat: no-repeat;
+      background-size: cover ;
+    }
+    
+</style>
+<script>
+var images=['meditation.jpg',
+            'meditation2.jpg',
+            'meditation3.jpg'
+            ];
+var url=0;
+setInterval(function(){
+   url+=1;
+  if(url==3){
+    url=0;
+  }
+  document.body.style.backgroundImage = 'url('+images[url]+')';
+  document.body.style.backgroundRepeat = "no-repeat";
+  document.body.style.height="100%" ;
+document.body.style.backgroundPosition="center";
+document.body.style.backgroundSize="cover";
+},10000);
+</script>
+</head>
+<body>
+  <center>
+    <br><br><br><br><br> <h1><b> LIVE PEACEFUL </b></h1></center>
+<p align='justify' style="font-size:20px">
+Why Meditation? Here are some of the benefits which you get from practicing meditation
+</p>
+<ul>
+<li>Your heart rate and breathing slow down.</li>
+<li>Your blood pressure normalizes.</li>
+<li>You use oxygen more efficiently.</li>
+<li>Your immune function improves.</li>
+<li>You sweat less.</li>
+<li>Your adrenal glands produce less cortisol.</li>
+<li>Your mind ages at a slower rate.</li>
+<li>Your mind clears and your creativity increases.</li>
+<li>People who meditate regularly find it easier to give up life-damaging habits like smoking, drinking, and drugs. They also find it easier to stop rumination from ruining their day.</li>
+  </body>
+  </html>

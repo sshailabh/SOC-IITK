@@ -1,0 +1,258 @@
+<html>
+<head>
+
+
+  <style>
+
+  body{
+  background-color:#fafab2;}
+  .he1{
+    background-color: green;
+  -webkit-transform: skew(-20deg);
+  height: 50px;
+  border-radius: 10px;
+  width:270px;
+  text-align:center;
+  padding-top:10px;
+  float:left;
+  margin-left: 2px;
+  }
+  .text1{
+    background-color: #fafab2;
+    width:260px;
+    clear:both;
+    font-size:15px;
+
+  }
+  .he2{
+    background-color: green;
+  -webkit-transform: skew(-20deg);
+  height: 50px;
+  border-radius: 10px;
+  width:270px;
+  text-align:center;
+  padding-top:10px;
+  float:left;
+  margin-left: 25px;
+
+  }
+.text2{
+  background-color: #fafab2;
+  width:260px;
+  clear:both;
+  font-size:15px;
+  text-align:left;
+  margin-right:15px;
+
+
+}
+.he3{
+ background-color: green;
+  -webkit-transform: skew(-20deg);
+  height: 50px;
+  border-radius: 10px;
+  width:270px;
+  text-align:center;
+  padding-top:10px;
+  float:left;
+  margin-left: 2px;
+}
+.text3{
+  background-color: #fafab2;
+  width:260px;
+  clear:both;
+  font-size:15px;
+}
+.he4{
+ background-color: green;
+  -webkit-transform: skew(-20deg);
+  height: 50px;
+  border-radius: 10px;
+  width:270px;
+  text-align:center;
+  padding-top:10px;
+  float:left;
+  margin-left: 25px;
+}
+.text4{
+   background-color: #fafab2;
+  width:260px;
+  clear:both;
+  font-size:15px;
+  text-align:left;
+  margin-right:15px;
+  
+}
+.button {
+  display: inline-block;
+  border-radius: 4px;
+  background-color: #f4511e;
+  border: none;
+  color: #FFFFFF;
+  text-align: center;
+  font-size: 17px;
+  height: 50px;
+  width: 120px;
+  transition: all 0.5s;
+  cursor: pointer;
+  margin: 5px;
+}
+
+.button span {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  transition: 0.5s;
+}
+
+.button span:after {
+  content: '\00bb';
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  right: -20px;
+  transition: 0.5s;
+}
+
+.button:hover span {
+  padding-right: 25px;
+
+}
+
+.button:hover span:after {
+  opacity: 1;
+  right: 0;
+}
+  </style>
+  <title> Healthy Living Style</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+<meta charset='utf-8'>
+  <script type = "text/javascript" src='liscript.js'>
+
+       </script>
+<link rel="stylesheet" href="listyle.css">
+
+</head>
+<body onload='startTimer()'>
+
+  <div class='header' >
+    <h1><span class="header1"> Healthy</span><span class="header2"> Living</span> </h1>
+  </div><div class='topnav'id='myDIV'>
+  <ul>
+  <li> <a href='h.html' target='jsgame'><button class='button5 active'>&nbsp&nbspGeneral&nbsp &nbsp </button></a></li>
+  <li>  <a href='som.html' target='jsgame'><button class='button5'>Effects of Social Media&nbsp &nbsp&nbsp </button> </a></li>
+   <li> <a href='pa.html' target="jsgame"><button class='button5'>Parenting Advices&nbsp &nbsp </button></a></li>
+   <li> <a href='som2.html' target="jsgame"><button class='button5'> Food and Mood&nbsp &nbsp </button></a></li>
+    <li><a href='#'><button class='button5'> Habits </button></a></li>
+	</ul>
+  </div>
+  <script>
+// Add active class to the current button (highlight it)
+var header = document.getElementById("myDIV");
+var btns = header.getElementsByClassName("button5");
+for (var i = 0; i < btns.length; i++) {
+  btns[i].addEventListener("click", function() {
+    var current = document.getElementsByClassName("active");
+    current[0].className = current[0].className.replace(" active", "");
+    this.className += " active";
+  });
+}
+</script>
+
+
+  <table cellspacing="0px" border="0""><tr><td style="width:150px"><div><div class='he1' style='font-size:25px;'>Effects of Social Media</div><br>
+    <div class='text1'><br>
+    <ul>
+      <li> Bad Effect on Communication Skills</li><br>
+      <li> Lack of Concentration</li><br>
+      <li> Social Media is Addictive</li><br>
+      <li> Discourage Physical Activities</li><br><br>
+    </ul><center><a href='som.html' target='jsgame'><button class='button' style="vertical-align:middle"><span>Read More</span></button></a></center><br>
+    </div>
+
+
+</div>&nbsp&nbsp&nbsp&nbsp
+<div class="dif"></div><div><div class='he3' style='font-size:25px;'>Food And Mood</div><br>
+    <div class='text3'><br>
+    <ul>
+      <li> Take Small Steps.</li><br>
+      <li> Keep a Food Diary</li><br>
+      <li> Manage Food Intolerances.</li><br>
+      <li> Always Maintain A Balanced Diet.</li><br><br>
+    </ul><center><a href='fm.html' target='jsgame'><button class='button' style="vertical-align:middle"><span>Read More</span></button></a></center><br>
+    </div>
+
+
+  </div>
+</td><td style="width:750px" align="left vertical-align="top"><div class='ifr'><iframe name="jsgame" id="jsgame" width="700px" height="1400px"frameBorder="0" > </iframe></div></td>
+<td align="right"><div><div class='he2' style='font-size:25px;'>Parenting Advices</div><br>
+  <div class='text2'><br>
+  <ul>
+    <li> Always Give Time To Your Children.</li><br>
+    <li> Be A Friendly Parent.</li><br>
+    <li> Good Atmosphere in Family.</li><br>
+    <li> High Expectation is a problem.</li><br><br>
+  </ul><center>
+  <a href='pa.html' target='jsgame'><button class='button' style="vertical-align:middle"><span>Read More</span></button></a></center><br>
+  </div>
+
+
+</div>
+<div class="dif1"></div><div><div class='he4' style='font-size:25px;'>Habits</div><br>
+  <div class='text4'><br>
+  <ul>
+    <li> Quit Smoking</li><br>
+    <li> Stay Away From Drugs</li><br>
+    <li> Sleep Timely</li><br>
+    <li> Sleep Sufficiently</li><br><br>
+  </ul><center><a href='hab.html' target='jsgame'><button class='button' style="vertical-align:middle"><span>Read More</span></button></a></center><br>
+  </div>
+
+
+</div>
+</td></tr>
+<!--
+</td></tr>
+<tr>
+<td>
+  <div><div class='he3' style='font-size:30px;'>Food And Mood</div><br>
+    <div class='text3'><br>
+    <ul>
+      <li> Take Small Steps.</li><br>
+      <li> Keep a Food Diary</li><br>
+      <li> Manage Food Intolerances.</li><br>
+      <li> Always Maintain A Balanced Diet.</li><br><br>
+    </ul><center><a href='fm.html' target='jsgame'><button class='button' style="vertical-align:middle"><span>Read More</span></button></a></center><br>
+    </div>
+
+
+  </div>
+</td><td><div><div class='he4' style='font-size:30px;'>Physical Fitness</div><br>
+  <div class='text4'><br>
+  <ul>
+    <li> Take Small Steps.</li><br>
+    <li> Keep a Food Diary</li><br>
+    <li> Manage Food Intolerances.</li><br>
+    <li> Always Maintain A Balanced Diet.</li><br><br>
+  </ul><center><a href='pa.html' target='jsgame'><button class='button' style="vertical-align:middle"><span>Read More</span></button></a></center><br>
+  </div>
+
+
+</div>
+
+</td>
+</tr>--></table>
+
+
+
+
+
+
+
+
+
+
+
+
+</body>
+</html>

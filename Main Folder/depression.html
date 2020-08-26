@@ -1,0 +1,86 @@
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+<meta charset="utf-8">
+
+<script>
+var randomText = new Array ();
+//this is the array from which we want to get random message.
+randomText[0]="\"Having anxiety and depression is like being scared and tired at the same time. It's the fear of failure, but no urge to be productive. It's wanting friends, but hate socializing. It's wanting to be alone, but not wanting to be lonely. It's feeling everything at once then feeling paralyzingly numb.\"";
+randomText[1]='\"I think the saddest people always try their hardest to make people happy because they know what it\'s like to feel absolutely worthless and they don\'t want anyone else to feel like that.\"';
+randomText[2]="\"What people never understand is that depression isn't about the outside; it's about the inside.\"";
+randomText[3]="\"When you are depressed you don't control your thoughts, your thoughts control you. I wish people would understand this.\"";
+randomText[4]="\"No matter how bad things are right now. No matter how stuck you feel. No matter how many days you have spent crying and wishing things were different. No matter how hopeless and depressed you feel. I promise you that you won't feel this way forever. Keep going.\"";
+randomText[5]="\"You don't understand depression until you can't stand your own presence in an empty room.\"";
+randomText[6]="\Sad hurts but it's a healthy feeling. It is a necessary thing to feel. Depression is very different.\"\  ---j.k rowling";
+randomText[7]=" \"Nobody ever tells you that emptiness weighs the most.\"";
+randomText[8]="\"It's not always the tears that measure the pain. Sometimes it's the smile we fake.\"";
+randomText[9]="\"It's hard to answer the question \"What's wrong?\" when nothing's right.\"";
+randomText[10]="\"The most terrible poverty is loneliness, and the feeling of being unloved.\"  --mother teresa";
+randomText[11]="\"Our sorrows and wounds are healed only when we touch them with compassion.\" --buddha";
+randomText[12]="\"We are shaped by our thoughts; we become what we think.\" ";
+randomText[13]="\"When the mind is pure, joy follows like a shadow that never leaves.\"   --buddha";
+ function rs() {
+//variable i contains random value between 0 and 1
+var i = Math.random();
+
+//variable arrayLength contains the length of the array i.e. total number of message-strings, images etc.
+var arrayLength=randomText.length;
+
+//multiplying the randomly generated value with length of array will give the numbers from 0 to length of array
+i=Math.floor(i*arrayLength);
+document.getElementById("id").innerHTML = randomText[i];
+
+//for showing random image
+//document['picture'].src=randomText[i] 
+//here array contains the list of iamges
+
+}
+
+</script>
+  <title></title>
+  <style>
+  body{
+    background-image:url("depre.jpg");
+    background-repeat: no-repeat;
+    background-size: 1530px ;
+  }
+  p{
+    font-size:20px;
+  }
+  .clas {
+    width: 900px;
+    border: 5px solid white;
+    padding: 25px;
+    margin: 25px;
+    color:white;
+}
+ .button{
+          
+          background-color:#1a4c00;
+          color:white;
+      }
+      .button:hover{
+          background-color:white;
+          color:black;
+      }
+  </style>
+</head>
+<body onload="rs()">
+
+  <h1 align='center' style='color:white;'> GET MOTIVATED </h1>
+  <div class='clas'>
+  <p id="id">9</p>
+  </div>
+  <p style='color:white' align='justify'> We recommend you some videos to know yourself and improve yourself. <a href='videos.html'><button class='button'>Click here</button></a>
+  </p>
+  <p align='justify' style='color:white'> There are many ways to improve your present situation.<br></p>
+    <ul style='font-size:20px'>
+	<li style='color:white'> <a href='dep-quotations.html'><button class='button'> Motivational Quotes</button> </a></li>
+      <li style='color:white'> <a href='meditation.html'> <button class='button'>Meditation</button> </a></li>
+        <li style='color:white'> <a href='yoga.html'> <button class='button'> Yoga</button> </a></li>
+        <li style='color:white'> <a href='livingstyle.html'> <button class='button'> Healthy Living Style</button> </a></li>
+      </ul>
+      <p align='justify' style='color:white'> You know?? Most of the people whom you know and admired have suffered from depression and some of the psychological problems. For example: J.K.Rowling, the famous writer who wrote Harry Potter has suffered from depression and once attempted suicide, shocking right!! There are many people like that. Want to read about them? Want to know how they coped their depression? <a href='CaseStudies.html'> <button class='button'>Case Studies</button> </a></p>
+</body>
+</html>

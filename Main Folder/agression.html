@@ -1,0 +1,80 @@
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta charset="UTF-8">
+<script>
+var randomTex = new Array ();
+//this is the array from which we want to get random message.
+randomTex[0]="\"How Beautiful it is to stay silent when someone expects you to be enraged.\"";
+randomTex[1]="\"Nobody makes you angry you dcide to use anger as a response.\"";
+randomTex[2]="\"Holding onto anger is like drinking poison and excepting the other person to die.\" --buddha";
+randomTex[3]="\"Anger and intolerance are the enemies of correct understanding.\"";
+randomTex[4]="\"Bitterness is like cancer.It eats upon the host.But anger is like fire.It burns it all clean.\"";
+randomTex[5]="\"Control your ANGER because it is just one letter away from DANGER.\"";
+randomTex[6]="\"ANGER is one letter short of DANGER thus be careful!!.\"";
+randomTex[7]="\"Anger is a feeling that makes your mouth work fater than your mind.\"";
+randomTex[8]="\"Peace is not absence of conflict,it is ability to handle conflict by peacful means --Ronald Reagan.\"";
+randomTex[9]="\"I believe that when people get angry they have a right to feel anger but that doesn't mean they have right to be cruel for that.\"";
+randomTex[10]="\"Your Passive Agressive behaviour confirmed my suspicious that you are an insecure toxic individual who must be avoided.\"";
+randomTex[11]="\"Agression is inherently destructive of relationships.People and ideologies are pitted against each other , believing that in order to survive ,they must destroy the opposition.\"";
+randomTex[12]="\"Some people just need a high-five in the face, with chair.\"";
+randomTex[13]="\"People will hate you,rate you ,shake you,and break you.But how strong you stand is what makes you.\"";
+randomTex[14]="\"Never push a loyal person to the point where they no longer care.\"";
+randomTex[15]="\"Agression is the first step on slippery slope to selfishness anh chaos.\" --Anne Campbell";
+function ps() {
+//variable i contains random value between 0 and 1
+var i = Math.random();
+
+//variable arrayLength contains the length of the array i.e. total number of message-strings, images etc.
+var arrayLength=randomTex.length;
+
+//multiplying the randomly generated value with length of array will give the numbers from 0 to length of array
+i=Math.floor(i*arrayLength);
+document.getElementById("id1").innerHTML = randomTex[i];
+
+//for showing random image
+//document['picture'].src=randomText[i] 
+//here array contains the list of iamges
+
+}
+
+</script>
+  <title></title>
+  <style>
+  body{
+    background-image:url("motivated.jpg");
+    background-repeat: no-repeat;
+    background-size: 1530px ;
+  }
+  p{
+    font-size:20px;
+  }
+  div {
+    width: 800px;
+    border: 5px solid green;
+    padding: 25px;
+    margin: 25px;
+}
+  </style>
+</head>
+<body onload="ps()">
+
+  <h1 align='center'> GET MOTIVATED </h1>
+  <div>
+  <p id="id1">nbhu</p>
+  </div>
+  <p style='color:white' align='justify'> We recommend you some videos to know yourself and improve yourself. <a href='videos.html'>Click here</a>
+  </p>
+  <p align='justify' style='color:white'> There are many ways to improve your present situation.<br></p>
+    <ul style='font-size:20px'>
+	<li style='color:white'> <a href='agression_qoutes.html'> Motivational Qoutes </a></li>
+      <li style='color:white'> <a href='meditation.html'> Meditation </a></li>
+        <li style='color:white'> <a href='yoga.html'> Yoga </a></li>
+        <li style='color:white'> <a href='food.html'> Food Habits </a></li>
+      </ul>
+      <p align='justify' style='color:white'> You know?? Most of the people whom you know and admired have suffered from agression and some of the psychological problems. For example: J.K.Rowling, the famous writer who wrote Harry Potter has suffered from depression and once attempted suicide, shocking right!! There are many people like that. Want to read about them? Want to know how they coped their depression? <a href='casestudies.html'> Case Studies </a></p>
+</body>
+</html>
+

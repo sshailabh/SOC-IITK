@@ -1,0 +1,178 @@
+
+.inline { 
+display: inline-block; 
+border: 1px solid red; 
+margin:10px;
+}
+
+
+
+
+.ifr{
+	background-color:#fafad2);
+	margin-left:20px;
+	margin-right:11px;
+    margin-top:-9px
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+.dif{
+	
+	height:60px;
+}
+
+
+
+.dif1{
+	height:80px;
+}
+
+
+body {
+margin-left:27px;
+background-color:#ffa500;
+
+
+
+}
+@font-face {
+  font-family: 'Aclonica';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Aclonica'), local('Aclonica-Regular'), url(http://themes.googleusercontent.com/static/fonts/aclonica/v3/SRPydzL0KLANO5G2lBcEnfesZW2xOQ-xsNqO47m55DA.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'Actor';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Actor Regular'), local('Actor-Regular'), url(http://themes.googleusercontent.com/static/fonts/actor/v3/lbfQ5Skb-g1BK2njdJ0HIw.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'Nova Flat';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Nova Flat'), local('NovaFlat'), url(http://themes.googleusercontent.com/static/fonts/novaflat/v5/vFeor41nvsomiEVSx6n4iqCWcynf_cDxXwCLxiixG1c.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'Aclonica';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Aclonica'), local('Aclonica-Regular'), url(http://themes.googleusercontent.com/static/fonts/aclonica/v3/SRPydzL0KLANO5G2lBcEnfesZW2xOQ-xsNqO47m55DA.ttf) format('truetype');
+}
+.header{
+    text-align:center;
+    text-shadow: 4px 4px #800000;
+     font-size:15px;
+    padding:6px;
+    color:white;
+	font-family: "Aclonica";font-size: 22px;
+   /* background-repeat: no-repeat;
+    background-image: linear-gradient(to right,#660066 0%,#669985 100%);
+    background-blend-mode:normal;*/
+    text-transform: capitalize;
+   /* position:sticky;*/
+    	margin-left: 70px;
+	width: 170px;
+	height: 150px;
+	-webkit-transform: skew(-20deg);
+	   -moz-transform: skew(-20deg);
+	     -o-transform: skew(-20deg);
+	background: red;
+  }
+.header1{color:white;-webkit-transform: skew(-20deg);
+	   -moz-transform: skew(-20deg);
+	     -o-transform: skew(-20deg);
+         font-size:35px;
+}
+.header2{color:white;-webkit-transform: skew(-20deg);
+	   -moz-transform: skew(-20deg);
+	     -o-transform: skew(-20deg);
+font-size:35px;}
+}
+ 
+ .topnav{
+	 background-color:green;
+	 margin-left:25%;
+margin-top:-2%;
+ }
+
+.button5 {
+	/*-moz-box-shadow:inset 0px 1px 0px 0px #bee2f9;
+	-webkit-box-shadow:inset 0px 1px 0px 0px #bee2f9;
+	box-shadow:inset 0px 1px 0px 0px #bee2f9;
+	background:-webkit-gradient(linear, left top, left bottom, color-stop(0.05, #63b8ee), color-stop(1, #468ccf));
+	background:-moz-linear-gradient(top, #63b8ee 5%, #468ccf 100%);
+	background:-webkit-linear-gradient(top, #63b8ee 5%, #468ccf 100%);
+	background:-o-linear-gradient(top, #63b8ee 5%, #468ccf 100%);
+	background:-ms-linear-gradient(top, #63b8ee 5%, #468ccf 100%);
+	background:linear-gradient(to bottom, #63b8ee 5%, #468ccf 100%);
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#63b8ee', endColorstr='#468ccf',GradientType=0);*/
+
+	/*-moz-border-radius:6px;
+	-webkit-border-radius:6px;
+	border-radius:6px;
+	border:1px solid #3866a3;*/
+	/*display:inline-block;*/
+	cursor:pointer;
+	color:white;
+	background-color:ff0000;
+	font-family:Nova Flat;
+	font-size:15px;
+	font-weight:bold;
+	padding:12px 57px;
+	text-decoration:none;
+	text-shadow:0px 1px 0px #7cacde;
+	border:none;
+
+}
+
+
+}
+.topnav  ul {
+display:block;
+    list-style-type: none;
+	display:block;
+    list-style-type: none;
+    margin: 0;
+    padding: 15px;
+    overflow: hidden;  
+    background-color: #800000;
+  
+}
+@font-face {
+  font-family: 'Alegreya';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Alegreya'), local('Alegreya-Regular'), url(http://themes.googleusercontent.com/static/fonts/alegreya/v4/jvx_POxM6YeT6dBBhDfmufesZW2xOQ-xsNqO47m55DA.ttf) format('truetype');
+}
+.topnav li {
+	display:block;
+    float: left;
+  margin-top:-1.3%;
+}
+.topnav a{display:block;}
+
+    .btn{
+      width:100%;
+      background-color:pink;
+      display: block;
+    color: black;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+.topnav button:hover:not(.active) {
+    background-color:#e34363 ;
+    color: white;
+}
