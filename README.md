@@ -1,4 +1,4 @@
-# Chasing_Sunshine
+# Chasing Sunshine
 A web app to check mental health on personal basis
 ![image](https://github.com/sshailabh/chasing_sunshine/blob/master/Poster.jpeg)
 > **Theme of the Web-app**
